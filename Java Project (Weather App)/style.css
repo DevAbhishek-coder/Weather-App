@@ -1,0 +1,128 @@
+
+/* Styling body */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222 ;
+    background-image: url(Images/background.png);
+}
+
+/* styling card div */
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, blue, #5b542a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+/* styling search bar */
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styling input field */
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 50pxpx;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 15px;
+}
+
+/* styling search button */
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* styling button img */
+.search button img{
+    width: 20px;
+}
+
+
+/* Styling weather details and icon */
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+/* Styling heading */
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+/* styling details class */
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+/* styling columns class */
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+/* syyling column image */
+.col img{
+    width: 40px;
+    margin-right: 10px;
+
+}
+ /* styling humidity and wind class */
+.humidity, .wind{
+    font-size: 20px;
+    margin-top: -6px;
+}
+
+/* Adding style to display weather none */
+.weather{
+    display: none;
+}
+
+/* Adding style to error class */
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    display: none;
+}
+
+
